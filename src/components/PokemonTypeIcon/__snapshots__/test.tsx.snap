@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PokemonTypeIcon /> should render the PokemonTypeIcon correctly 1`] = `
+.c0 {
+  border-radius: 100%;
+  height: 3rem;
+  width: 3rem;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  margin: 2px 3px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #FBA54C;
+  box-shadow: 0 0 2rem #FBA54C;
+}
+
+@media (min-width:768px) {
+
+}
+
+<div
+  class="c0"
+>
+  <img
+    alt="fire"
+    data-testid="Mock Image"
+    src="/img/type-icons/fire.png"
+  />
+</div>
+`

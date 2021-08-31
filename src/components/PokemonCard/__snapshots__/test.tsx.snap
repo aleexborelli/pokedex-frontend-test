@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PokemonCard /> should render the PokemonCard correctly 1`] = `
+.c4 {
+  border-radius: 100%;
+  height: 3rem;
+  width: 3rem;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  margin: 2px 3px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #FBA54C;
+  box-shadow: 0 0 2rem #FBA54C;
+}
+
+.c5 {
+  border-radius: 100%;
+  height: 3rem;
+  width: 3rem;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  margin: 2px 3px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #A1BBEC;
+  box-shadow: 0 0 2rem #A1BBEC;
+}
+
+.c1 {
+  position: absolute;
+  padding: 0 0.8rem;
+  height: 2.6rem;
+  top: 0.3rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fff;
+  background-color: #FBA54C;
+  left: -1.5rem;
+}
+
+.c1::before {
+  content: '';
+  top: 2.6rem;
+  border-top-width: 0.7rem;
+  position: absolute;
+  border-style: solid;
+  border-bottom-color: transparent;
+  border-bottom-width: 1rem;
+}
+
+.c1::before {
+  border-left-color: #dc7205;
+  border-top-color: #dc7205;
+}
+
+.c1::before {
+  border-left-width: 1.5rem;
+  border-right-width: 0rem;
+  border-left-color: transparent;
+  left: 0;
+}
+
+.c0 {
+  width: auto;
+  position: relative;
+  padding: 0.3rem;
+  margin: 0.3rem 0.8rem;
+  border-radius: 1.0rem;
+  border: 0.1rem solid;
+  text-align: center;
+  cursor: pointer;
+  background-color: #fff;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  border-color: #FBA54C;
+  color: #FBA54C;
+}
+
+.c0:hover {
+  box-shadow: 0 0 1rem #FBA54C;
+  color: #FBA54C;
+}
+
+.c2 {
+  text-transform: capitalize;
+  font-size: 2.0rem;
+  font-weight: 700;
+  width: 19rem;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media (min-width:768px) {
+  .c4:hover {
+    -webkit-filter: saturate(200%);
+    filter: saturate(200%);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
+@media (min-width:768px) {
+  .c5:hover {
+    -webkit-filter: saturate(200%);
+    filter: saturate(200%);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
+@media (min-width:768px) {
+  .c0:hover {
+    -webkit-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    transform: scale(1.01);
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+    color="fire"
+  >
+    #
+    006
+  </div>
+  <img
+    data-testid="Mock Image"
+  />
+  <h1
+    class="c2"
+  >
+    Charizard
+  </h1>
+  <div
+    class="c3"
+  >
+    <div
+      class="c4"
+    >
+      <img
+        data-testid="Mock Image"
+      />
+    </div>
+    <div
+      class="c5"
+    >
+      <img
+        data-testid="Mock Image"
+      />
+    </div>
+  </div>
+</div>
+`;
